@@ -6,5 +6,5 @@ if Sueldo > 300.000:
     nuevo_sueldo = Sueldo + aumento
     print("El sueldo del trabajador con el aumento aplicado es: ", nuevo_sueldo)
 else:
-    print("El sueldo del trabajador no tiene auemnto")
+    print("El sueldo del trabajador no tiene aumento")
 

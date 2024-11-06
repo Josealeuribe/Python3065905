@@ -2,15 +2,15 @@
 
 nombre = input("Ingrese el nombre: ")
 edad = int(input("Ingrese la edad: "))
-sexo = input("Ingrese el sexo (hombre/mujer): ")
-estado_civil = input("Ingrese el estado civil (casado/soltero): ")
+sexo = input("Ingrese el sexo: ")
+estado_civil = input("Ingrese el estado civil: ")
 
-if sexo == "hombre" and estado_civil == "casado" and edad > 40: 
+if sexo == "masculino" and estado_civil == "casado" and edad > 40: 
     print(nombre, "es un hombre casado mayor de 40 años")
-elif sexo == "mujer" and estado_civil == "soltero" and edad < 50:
+elif sexo == "femenino" and estado_civil == "soltera" and edad < 50:
     print(nombre, "es una mujer soltera menor de 50 años")
 else:
-    print(nombre, "no cumple con las condiciones para ser considerada")
+    print(nombre, "no cumple con las condiciones para ser considerado")
 
 
 
